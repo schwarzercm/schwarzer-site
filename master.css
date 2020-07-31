@@ -103,7 +103,7 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px
+  height: 560px
 }
 
 footer{
@@ -118,5 +118,5 @@ ul{
   display: flex;
   list-style-type: none;
   align-items: center;
-  margin: 32px auto auto 520px;
+  margin: auto auto auto 650px;
 }
