@@ -106,6 +106,15 @@ a:hover{
   height: 560px
 }
 
+.product-list{
+  margin: 76px auto auto 14px;
+}
+
+img{
+  width: 450px * 1.6180339887498948482;
+  height: 450px;
+}
+
 footer{
   display: flex;
   align-items: center;
