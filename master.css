@@ -142,6 +142,10 @@ img{
   opacity: 0.6;
 }
 
+.wrapper{
+  height: 650px
+}
+
 footer{
   display: flex;
   align-items: center;
