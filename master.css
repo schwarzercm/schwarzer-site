@@ -103,7 +103,8 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 560px
+  margin-top: 50px;
+  height: 540px
 }
 
 .product-list{
@@ -158,5 +159,5 @@ ul{
   display: flex;
   list-style-type: none;
   align-items: center;
-  margin: 40px auto auto 650px;
+  margin: 35px auto auto 635px;
 }
