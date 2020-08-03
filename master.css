@@ -7,30 +7,23 @@ body{
   color: #ffffff;
 }
 
-.project-panel{
+.project-panel, .blog-panel{
   border-bottom: #000000  0.2px solid;
   background-color: #ffffff;
   height: 76px;
 }
 
+#projects, #blogs{
+  color: #000000;
+  font-size: 60px;
+}
+
 #projects{
-  color: #000000;
-  font-size: 60px;
-}
-
-.blog-panel{
-  border-bottom: #000000 0.2px solid;
-  background-color: #ffffff;
-  height: 76px;
-}
-
-#blogs{
-  color: #000000;
-  font-size: 60px;
+  margin: 0 35px;
 }
 
 .marquee {
-  margin: 0 auto;
+  margin: 0 -65px;
   white-space: nowrap;
   overflow: hidden;
   position: absolute;
@@ -103,7 +96,7 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 20px;
   height: 540px
 }
 
