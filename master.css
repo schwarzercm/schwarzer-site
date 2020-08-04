@@ -51,6 +51,21 @@ body{
   margin: 50px 35px;
 }
 
+#status{
+  font-size: 300px;
+  margin-left: 100px;
+  margin-top: 40px;
+  color: #313131
+}
+
+#connect{
+  opacity: 0.3;
+  margin-left: 735px;
+  margin-top: -190px;
+}
+
+
+
 header{
   margin: auto auto auto 100px;
   display: flex;
@@ -155,5 +170,5 @@ ul{
   display: flex;
   list-style-type: none;
   align-items: center;
-  margin: 35px auto auto 635px;
+  margin: 35px auto auto 600px;
 }
