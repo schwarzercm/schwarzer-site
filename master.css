@@ -47,6 +47,9 @@ body{
     transform: translate(-100%, 0);
   }
 }
+.github-widget{
+  margin: 50px 35px;
+}
 
 header{
   margin: auto auto auto 100px;
