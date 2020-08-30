@@ -5,48 +5,11 @@ body{
 
   background-color: #292929;
   color: #ffffff;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
-.project-panel, .blog-panel{
-  border-bottom: #000000  0.2px solid;
-  background-color: #ffffff;
-  height: 76px;
-}
-
-#projects, #blogs{
-  color: #000000;
-  font-size: 60px;
-}
-
-#projects{
-  margin: 0 35px;
-}
-
-.marquee {
-  margin: 0 -65px;
-  white-space: nowrap;
-  overflow: hidden;
-  position: absolute;
-}
-
-.marquee span {
-  display: inline-block;
-  padding-left: 100%;
-  animation: marquee 20s linear infinite;
-}
-
-.marquee2 span {
-  animation-delay: 10s;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(-100%, 0);
-  }
-}
 .github-widget{
   margin: 50px 35px;
 }
@@ -63,8 +26,6 @@ body{
   margin-left: 735px;
   margin-top: -190px;
 }
-
-
 
 header{
   margin: auto auto auto 100px;
@@ -105,7 +66,7 @@ a:hover{
 
 
 #motto{
-  font-size:  100px;
+  font-size:  8.5em;
   margin: auto auto auto 120px;
 }
 
@@ -115,7 +76,7 @@ a:hover{
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  height: 540px
+  height: 540px;
 }
 
 .product-list{
@@ -155,7 +116,7 @@ img{
 }
 
 .wrapper{
-  height: 650px
+  height: 454.65px
 }
 
 footer{
@@ -163,12 +124,19 @@ footer{
   align-items: center;
   justify-content:space-between;
   height: 76px;
-  padding-bottom: 5px;
+}
+
+#socials{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding-top: 7.5em;
+  padding-left: 39.5em
 }
 
 ul{
   display: flex;
   list-style-type: none;
   align-items: center;
-  margin: 35px auto auto 600px;
+  
 }
