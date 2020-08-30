@@ -79,6 +79,10 @@ a:hover{
   height: 540px;
 }
 
+.page{
+  margin-bottom: 7em;
+}
+
 .product-list{
   margin: 76px auto auto 14px;
 }
