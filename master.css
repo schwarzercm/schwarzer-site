@@ -92,6 +92,12 @@ img{
   height: 450px;
 }
 
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
 .fade-in {
 	opacity: 1;
 	animation-name: fadeInOpacity;
