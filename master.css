@@ -126,17 +126,23 @@ footer{
   height: 76px;
 }
 
-#socials{
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  padding-top: 7.5em;
-  padding-left: 39.5em
-}
-
 ul{
   display: flex;
   list-style-type: none;
   align-items: center;
-  
+}
+
+#socials{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding-top: 7em;
+  padding-left: 39.5em
+}
+
+#sub-socials{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin-left: 600px;
 }
