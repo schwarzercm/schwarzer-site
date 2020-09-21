@@ -5,3 +5,4 @@ Personal website to see what I'm currently working on
 <br>
 ## Latest Post:
 <img id = "post" src="https://github.com/schwarzercm/schwarzer-site/blob/master/img/PrimalConnection.png" width = "500 * 1.6180339887498948482"/>
+
