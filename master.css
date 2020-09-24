@@ -18,9 +18,9 @@ body{
 
 #status{
   font-size: 300px;
-  margin-left: 100px;
   margin-top: 40px;
-  color: #313131
+  color: #313131;
+  text-align: center;
 }
 
 #connect{
@@ -155,9 +155,6 @@ ul{
   left: 35%;
   transform: translateX(5%) translateY(5%);
 
-}
-
-#social{
 }
 
 #sub-socials{
