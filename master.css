@@ -12,23 +12,6 @@ body{
   height: 100vh;
 }
 
-.github-widget{
-  margin: 50px 35px;
-}
-
-#status{
-  font-size: 300px;
-  margin-top: 40px;
-  color: #313131;
-  text-align: center;
-}
-
-#connect{
-  opacity: 0.3;
-  margin-left: 735px;
-  margin-top: -190px;
-}
-
 header{
   margin: auto auto auto 100px;
   display: flex;
@@ -133,33 +116,12 @@ img{
   height: 454.65px
 }
 
-footer{
-  display: flex;
-  align-items: center;
-  justify-content:space-between;
-  height: 76px;
-}
+
 
 ul{
   display: flex;
+  justify-content: center;
   list-style-type: none;
   align-items: center;
-}
-
-#socials{
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  position: absolute;
-  padding-top: 7em;
-  left: 35%;
-  transform: translateX(5%) translateY(5%);
-
-}
-
-#sub-socials{
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  margin-left: 600px;
+  margin-right: 50px;
 }
