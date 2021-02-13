@@ -6,6 +6,61 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>PRINTS</title>
+    <style>
+    .page{
+      margin-bottom: 7em;
+      margin-right: 4.5em;
+    }
+
+    .product-list{
+      margin: 76px auto auto 14px;
+      justify-content: start;
+    }
+
+    img{
+      width: 450px * 1.6180339887498948482;
+      height: 450px;
+    }
+
+    .scrolling-wrapper {
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+
+    }
+
+    .fade-in {
+      opacity: 1;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 2s;
+    }
+
+    @keyframes fadeInOpacity {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .fade-hover{
+      color: white;
+      opacity: 1;
+      transition: 0.3s;
+    }
+
+    .fade-hover:hover {
+      opacity: 0.6;
+    }
+
+    .wrapper{
+      height: 454.65px
+      justify-content: start;
+    }
+    </style>
   </head>
   <body>
     <header>
@@ -17,61 +72,57 @@
     </header>
     <section class = "page">
       <div class="scrolling-wrapper">
-        <div class="wrapper">
-          <ul class="product-list">
-            <li class="fade-in fade-hover">
-              <a class="link" href="https://www.instagram.com/p/CGxda_bhUUw/">
-                <img class="image" src="img/febn.png" alt="fowardebackwardn">
-              </a>
-            </li>
-            <li class="fade-in fade-hover">
-              <a class="link" href="https://www.instagram.com/p/CGxda_bhUUw/">
-                <img class="image" src="img/astronaut.png" alt="astronaut">
-              </a>
-            </li>
-            <li class="fade-in fade-hover">
-              <a class="link" href="https://www.instagram.com/p/CFXm24bBnEJ/">
-                <img class="image" src="img/PrimalConnection.png" alt="primal-connection">
-              </a>
-            </li>
-            <li class="fade-in fade-hover">
-              <a class="link" href="https://www.instagram.com/p/CFFH8SuBzpr/">
-                <img class="image" src="img/nubilus_creare.png" alt="nubilus">
-              </a>
-            </li>
-            <li class="fade-in fade-hover">
-              <a class="link" href="https://www.instagram.com/p/CD6WVGxBBvO/">
-                <img class="image" src="img/LUNAR.png" alt="transcend">
-              </a>
-            </li>
-            <br>
-            <li class="fade-in fade-hover">
-              <a class="link" href="https://www.instagram.com/p/CCyUlbVhqyk/">
-                <img class="image" src="img/transcend_ts.png" alt="transcend">
-              </a>
-            </li>
-            <br>
-            <li class="fade-in fade-hover">
-              <a class="link" href="https://www.instagram.com/p/CChH60JBpmr/">
-                <img class="image" src="img/Neutron.png" alt="Neutron">
-              </a>
-            </li>
-            <li class="fade-in fade-hover">
-              <a class="link" href="https://www.instagram.com/p/CCd1ztqB5_m/">
-                <img class="image" src="img/IRIDESCENCE.png" alt="IRIDESCENCE">
-              </a>
-            </li>
-            <li class="fade-in fade-hover">
-              <a class="link" href="https://www.instagram.com/p/CCcRbPHhISu/">
-                <img class="image" src="img/emerge.png" alt="emerge">
-              </a>
-            </li>
-          </ul>
-        </div>
+        <ul class="wrapper product-list">
+          <li class="fade-in fade-hover object">
+            <a class="link" href="https://www.instagram.com/p/CJgOLzLhA8i/">
+              <img class="image" src="img/febn.png" alt="fowardebackwardn">
+            </a>
+          </li>
+          <li class="fade-in fade-hover">
+            <a class="link" href="https://www.instagram.com/p/CGxda_bhUUw/">
+              <img class="image" src="img/astronaut.png" alt="astronaut">
+            </a>
+          </li>
+          <li class="fade-in fade-hover">
+            <a class="link" href="https://www.instagram.com/p/CFXm24bBnEJ/">
+              <img class="image" src="img/PrimalConnection.png" alt="primal-connection">
+            </a>
+          </li>
+          <li class="fade-in fade-hover">
+            <a class="link" href="https://www.instagram.com/p/CFFH8SuBzpr/">
+              <img class="image" src="img/nubilus_creare.png" alt="nubilus">
+            </a>
+          </li>
+          <li class="fade-in fade-hover">
+            <a class="link" href="https://www.instagram.com/p/CD6WVGxBBvO/">
+              <img class="image" src="img/LUNAR.png" alt="LUNAR">
+            </a>
+          </li>
+          <li class="fade-in fade-hover">
+            <a class="link" href="https://www.instagram.com/p/CCyUlbVhqyk/">
+              <img class="image" src="img/transcend_ts.png" alt="transcend">
+            </a>
+          </li>
+          <li class="fade-in fade-hover">
+            <a class="link" href="https://www.instagram.com/p/CChH60JBpmr/">
+              <img class="image" src="img/Neutron.png" alt="Neutron">
+            </a>
+          </li>
+          <li class="fade-in fade-hover">
+            <a class="link" href="https://www.instagram.com/p/CCd1ztqB5_m/">
+              <img class="image" src="img/IRIDESCENCE.png" alt="IRIDESCENCE">
+            </a>
+          </li>
+          <li class="fade-in fade-hover">
+            <a class="link" href="https://www.instagram.com/p/CCcRbPHhISu/">
+              <img class="image" src="img/emerge.png" alt="emerge">
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
     <footer>
-      <ul id="sub-socials">
+      <ul class="sub-socials">
         <li><a href="https://www.twitter.com/schwarzercm">twitter</a></li>
         <li><a href="https://www.instagram.com/schwarzer_cm/">instagram</a></li>
         <li><a href="https://github.com/schwarzercm">github</a></li>
