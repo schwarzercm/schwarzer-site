@@ -1,4 +1,4 @@
-# chukkyiii.com (undomained)
+# chukkyiii.tech
 Personal website to see what I'm currently working on
 <br>
 https://chukkyiii.tech (not perfect 😅)
